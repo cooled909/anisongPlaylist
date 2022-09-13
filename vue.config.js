@@ -1,5 +1,5 @@
 module.exports = defineConfig({
   publicPath : process.envNODE_ENV === production
-    ? 'food'
+    ? '/anisongPlaylist/'
     : '/'
 })
