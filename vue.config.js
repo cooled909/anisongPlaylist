@@ -1,3 +1,5 @@
 module.exports = defineConfig({
-  publicPath : '/anisongPlaylist/'
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/anisongPlaylist/'
+    : '/'
 })
